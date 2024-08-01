@@ -3,7 +3,7 @@ name: Continuous integration
 on:
   push:
     paths:
-      - .github/workflows/build.yml
+      - .github/workflows/debug.yml
 
 jobs:
   build:
