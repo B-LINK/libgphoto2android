@@ -2,8 +2,8 @@ name: Continuous integration
 
 on:
   push:
-    branches:
-      - docker
+    paths:
+      - .github/workflows/build.yml
 
 jobs:
   build:
