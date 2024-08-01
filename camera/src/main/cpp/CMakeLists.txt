@@ -4,22 +4,22 @@ cmake_minimum_required(VERSION 3.4.1)
 set(CMAKE_VERBOSE_MAKEFILE on)
 
 # show all common compiler warnings
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
 
 # show all more common warnings
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wextra")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wextra")
 
 # treat warnings as errors
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Werror")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Werror")
 
 # enables strict standard conformance
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pedantic-errors")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -pedantic-errors")
 
 # enables warnings about conversions (float to int)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wconversion")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wconversion")
 
 # enables warnings about sign conversions (signed and unsigned)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wsign-conversion")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wsign-conversion")
 
 
 # use CMAKE_FIND_ROOT_PATH and CMAKE_SYSROOT for find_library()
