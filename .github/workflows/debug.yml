@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: cimg/android:2024.07.1-ndk
+      image: cimg/android:2021.08.1-ndk
     steps:
       - uses: actions/checkout@v2
       - name: Checkout
