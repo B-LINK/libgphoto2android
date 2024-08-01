@@ -3,7 +3,7 @@ name: Continuous integration
 on:
   push:
     branches:
-      - development
+      - docker
   pull_request:
     types: [opened, synchronize, reopened, edited]
   workflow_dispatch:
