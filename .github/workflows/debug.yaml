@@ -14,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Checkout
-        run: mkdir ~/temp
+        run: |
+          ls
         
       - name: Copy CI gradle.properties
         run: mkdir -p ~/.gradle ; cp .github/ci-gradle.properties ~/.gradle/gradle.properties
